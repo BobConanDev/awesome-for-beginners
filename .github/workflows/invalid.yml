@@ -8,6 +8,13 @@ on:
       - '.github/**'
       - 'data.json'
       - 'CONTRIBUTING.md'
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '.github/**'
+      - 'data.json'
+      - 'CONTRIBUTING.md'
 
 jobs:
   check:
